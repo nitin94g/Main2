@@ -263,8 +263,9 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 
 📖 {plot}
 
-💗 ᴘᴏᴡᴇʀᴇᴅ ʙʏ : {message.chat.title}</b>
-"""
+⏰Result Shown in: {remaining_seconds} <i>seconds</i> 🔥
+
+💗 Requested by : {message.from_user.mention}</b>"""
     
 
     RESTART_TXT = """

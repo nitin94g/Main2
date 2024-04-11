@@ -16,6 +16,11 @@ SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '29414758'))
 API_HASH = environ.get('API_HASH', '8cd9e6113ed53dd8767cb760d4535bd1')
 BOT_TOKEN = environ.get('BOT_TOKEN', "6909831396:AAGhuIsqZLuFNjFeHcq0gZBSaeUb3fl9Ycg")
+REACTIONS = [
+    "🔥", "❤️", "😍", "⚡", "😇",
+    "🤩", "🎉", "🤗", "🤩", "😎",
+    "🤝", "🤯", "🤓"
+]
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
